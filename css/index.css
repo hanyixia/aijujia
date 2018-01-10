@@ -1,0 +1,551 @@
+/*
+* @Author: 1
+* @Date:   2018-01-04 10:01:49
+* @Last Modified by:   1
+* @Last Modified time: 2018-01-08 09:14:04
+*/
+@import url('bash.css');
+/* body{
+	height: 100rem;
+} */
+@font-face {
+  font-family: 'iconfont';  /* project id 524939 */
+  src: url('http://at.alicdn.com/t/font_524939_wjilsxsw4rla0pb9.eot');
+  src: url('http://at.alicdn.com/t/font_524939_wjilsxsw4rla0pb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524939_wjilsxsw4rla0pb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524939_wjilsxsw4rla0pb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524939_wjilsxsw4rla0pb9.svg#iconfont') format('svg');
+}
+/* 居家头部开始 */
+.header{
+	width: 100%;
+	height: 1.3rem;
+	display: flex;
+	background: white;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+}
+.header_left{
+	display: block;
+	width: 1.54rem;
+	height: 100%;
+}
+.iconfont1{
+	display: block;
+    font-size: 0.8rem;
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #ef55ad;
+    text-align: center;
+    margin-top: -0.4rem;
+}
+.header_center{
+	display: block;
+    width: 4.03rem;
+    height: 100%;
+}
+.header_center p{
+	font-size: 0.58rem;
+	color: #e7007b;
+	text-align: center;
+	line-height: 1.3rem;
+	font-family: '黑体';
+}
+.header_right{
+	display: block;
+	width: 1.54rem;
+	height: 100%;
+}
+/* 居家头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 4.29rem;
+	margin-top: 1.3rem;
+	position: relative;
+}
+.banner1{
+	width: 100%;
+	height: 100%;
+}
+.banner1 li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.banner1  li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.lunbo{
+	width: 10.40rem;
+	height: 0.1rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 4.1rem;
+}
+.lunbo li{
+	width: calc(100% / 3);
+	height: 100%;
+	background:#ff75a5; 
+	float: left;
+}
+.lunbo li:nth-child(2){
+	background: rgba(255, 255, 255, 0.5);
+}
+/* banner结束 */
+/* 居家搜索开始 */
+
+/* 居家搜索结束 */
+.sousuo{
+	width: 100%;
+	height: 1.42rem;
+	overflow: hidden;
+}
+.sousuo_center{
+	width: 9.44rem;
+	height: 0.92rem;
+	border-radius: 0.5rem;
+	border: 0.02rem solid #dec79c;
+	margin-top: 0.25rem;
+	margin-left: 0.65rem;
+}
+.center_z{
+	display: block;
+	width: 1.01rem;
+	height: 100%;
+	float: left;
+}
+.iconfont{
+	display: block;
+    font-size: 0.5rem;
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #deb263;
+    text-align: center;
+    margin-top: -0.2rem;
+}
+.center_c{
+    width: 2.5rem;
+    height: 100%;
+    float: left;
+}
+.center_y{
+	width: 1.42rem;
+	height: 100%;
+	float: left;
+}
+.center_c p{
+	font-size: 0.32rem;
+	color: #adaaa5;
+	line-height: 0.92rem;
+}
+.center_y p{
+	font-size: 0.32rem;
+	color: #63615a;
+	line-height: 0.92rem;
+}
+/* 居家列表开始 */
+.liebiao{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 0.55rem;
+}
+.liebiao li{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.tu{
+	width: 1.65rem;
+	height: 1.49rem;
+	margin: auto;
+	margin-top: 0.114rem;
+}
+.tu img{
+	width: 100%;
+	height: 100%;
+}
+.liebiao li h2{
+    font-size: 0.28rem;
+    color: #636163;
+    font-weight: normal;
+    text-align: center;
+}
+/* 居家列表结束 */
+/* 精选活动开始 */
+.jingxuan{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.jingxuan_top{
+	width: 100%;
+	height: 1.32rem;
+}
+.jingxuan_top_z{
+    width: 2.52rem;
+    height: 100%;
+    float: left;
+}
+.jingxuan_top_c{
+    width: 0.37rem;
+    height: 100%;
+    float: left;
+}
+.jingxuan_top_y{
+     width: 5rem;
+     height: 100%;
+     float: left;
+}
+.y_top{
+	width: 100%;
+	height: 50%;
+}
+.jingxuan_top_z h2{
+	font-size: 0.46rem;
+	color: #b58e31;
+	text-align: center;
+	line-height: 1.32rem;
+}
+.shu{
+	width: 0.1rem;
+	height: 0.46rem;
+	background: #b58e31;
+	margin-left: -0.17rem;
+	margin-top: 0.42rem;
+	float: left;
+}
+.jingxuan_bottom{
+	width: 100%;
+	height: 9.72rem;
+}
+
+.y_bottom{
+	width: 100%;
+	height: 50%;
+}
+.jingxuan_bottom img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 精选活动结束 */
+/* 精彩推荐开始 */
+.tuijian{
+	width: 10.26rem;
+	height: 5.76rem;
+	float: left;
+	margin-left: 0.27rem;
+}
+.tuijian_top{
+	width: 100%;
+	height: 1.32rem;
+}
+.tuijian_top_z{
+    width: 2.52rem;
+    height: 100%;
+    float: left;
+}
+.tuijian_top_c{
+    width: 0.37rem;
+    height: 100%;
+    float: left;
+}
+.tuijian_top_y{
+     width: 5rem;
+     height: 100%;
+     float: left;
+}
+.tuijian_top_z h2{
+	font-size: 0.46rem;
+	color: #b58e31;
+	text-align: center;
+	line-height: 1.32rem;
+}
+.tuijianshu{
+	width: 0.1rem;
+	height: 0.46rem;
+	background: #b58e31;
+	margin-left: -0.17rem;
+	margin-top: 0.42rem;
+	float: left;
+}
+.tuijian_bottom{
+	width: 100%;
+	height: 4.41rem;
+	border: 0.02rem solid #a5a6a5;
+}
+.tuijian_left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right: 0.01rem solid #a5a6a5;
+	box-sizing: border-box;
+}
+.tuijian_right{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.tuijian_left_t{
+	width: 100%;
+	height: 3.33rem;
+}
+.tuijian_left_t img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tuijian_left_b{
+	width: 100%;
+	height: auto;
+}
+.tuijian_left_b h2{
+	font-size: 0.3rem;
+	color: #b5b6b5;
+	font-weight: normal;
+	text-align: center;
+}
+.tuijian_left_b1{
+    width: 2.50rem;
+    height: 0.39rem;
+    border: 0.01rem solid #d69a6b;
+    border-radius: 0.5rem;
+    margin-left: 1.2rem;
+    margin-top: 0.07rem;
+}
+.tuijian_left_b1 h2{
+	font-weight: normal;
+	font-size: 0.18rem;
+	color: #d69a6b;
+	text-align: center;
+	margin-top: -0.07rem;
+}
+.right_t{
+	width: 100%;
+	height: 50%;
+	border-bottom:0.01rem solid #b5b2b5;
+	box-sizing: border-box;
+
+}
+.right_t img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right_b img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right_b{
+	width: 100%;
+	height: 50%;
+	
+}
+/* 精彩推荐结束 */
+/* 品牌旗舰店开始 */
+.qijian{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.qijian_top{
+	width: 100%;
+	height: 1.32rem;
+}
+.qijian_top_z{
+    width: 3rem;
+    height: 100%;
+    float: left;
+}
+.qijian_top_c{
+    width: 0.37rem;
+    height: 100%;
+    float: left;
+}
+.qijian_top_z h2{
+	font-size: 0.46rem;
+	color: #b58e31;
+	text-align: center;
+	line-height: 1.32rem;
+}
+.qijianshu{
+	width: 0.1rem;
+	height: 0.46rem;
+	background: #b58e31;
+	margin-left: -0.17rem;
+	margin-top: 0.42rem;
+	float: left;
+}
+.qijian_bottom{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.qijian_bottom li{
+	width: 30%;
+	height: auto;
+}
+.qijian_bottom img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 品牌旗舰店结束 */
+/* 上新开始 */
+.shangxin{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.shangxin_top{
+    width: 100%;
+    height: 1.36rem;
+    display: flex;
+    justify-content: center;
+}
+.shangxin_top_z{
+	width: 0.87rem;
+	height: 100%;
+}
+.shangxin_top_y{
+	width: 0.87rem;
+	height: 100%;
+}
+.shangxin_top_c{
+	width: 4.5rem;
+	height: 100%;
+}
+.shangxin_top_c h2{
+	font-size: 0.36rem;
+	color: #424542;
+	text-align: center;
+	line-height: 1.36rem;
+}
+.shangxin_top i{
+	display: block;
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #ffe7a5;
+    margin-bottom: 0.5rem;
+    line-height: 1.36rem;
+}
+.shangxin_bottom{
+	width: 100%;
+	height: auto;
+}
+.shangxin_bottom img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.bottom1{
+
+	width: 100%;
+	height: auto;
+}
+.bottom1 img{
+	margin-top: 0.3rem;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.3rem;
+}
+
+/* 上新结束 */
+/* 品质生活开始 */
+.pinzhi{
+	width: 100%;
+	height: auto;
+	margin-bottom: 2rem;
+}
+.pingzhi_top{
+	width: 100%;
+	height: auto;
+}
+.pingzhi_top img{
+    width: 100%;
+    height: 100%;
+}
+.pinzhi_bottom{
+	width: 100%;
+	height: 1.5rem;
+	border-bottom: 0.01rem solid #e7e7e7;
+	box-sizing: border-box;
+}
+.pinzhi_bottom h2:first-child{
+    font-size: 0.36rem;
+    color: #737173;
+    font-weight: normal;
+    margin-left: 0.23rem;
+}
+.pinzhi_bottom h2:last-child{
+    font-size: 0.3rem;
+    color: #5a75ad;
+    margin-left: 0.23rem;
+    font-weight: normal;
+}
+/* 品质生活结束 */
+/* 底部开始 */
+.jujiadibu{
+	width: 100%;
+	height: auto;
+	border-top: 0.01rem solid #dddddd;
+	float: left;
+	margin-top: 9.72rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+.jujiadibu li{
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-bottom: 0.3rem;
+
+}
+.dibu_top{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.dibu_zi{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.dibu_zi h2{
+    font-size: 0.27rem;
+    color: #999999;
+    text-align: center;
+    font-weight: normal;
+}
+.jujiadibu li:first-child a h2{
+	display: block;
+	color: #e7007b;
+
+} 
+.iconfont3{
+	display: block;
+    font-size: 0.63rem;
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #999999;
+    text-align: center;
+}
+.jujiadibu li:first-child a i{
+	display: block;
+	color: #e7007b;
+} 
+/* 底部结束 */

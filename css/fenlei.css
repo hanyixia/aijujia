@@ -1,0 +1,159 @@
+/*
+* @Author: 1
+* @Date:   2018-01-06 16:25:12
+* @Last Modified by:   1
+* @Last Modified time: 2018-01-10 18:34:29
+*/
+@import url('bash.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 524939 */
+  src: url('http://at.alicdn.com/t/font_524939_djv0qhhu91zwipb9.eot');
+  src: url('http://at.alicdn.com/t/font_524939_djv0qhhu91zwipb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524939_djv0qhhu91zwipb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524939_djv0qhhu91zwipb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524939_djv0qhhu91zwipb9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+/* body{
+	height: 50rem;
+} */
+/* 分类头部开始 */
+header{
+	width: 100%;
+	height: 1.31rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.header_left{
+	display: block;
+	width: 1.52rem;
+	height: 100%;
+}
+.header_left i{
+	display: block;
+	font-size: 0.5rem;
+	color: #848684;
+	text-align: center;
+}
+.header_right{
+	width: 6.58rem;
+	height: 100%;
+}
+.header_right h2{
+	font-size: 0.44rem;
+	color: #000000;
+	line-height: 1.31rem;
+	margin-left: 0.47rem;
+	font-weight: normal;
+}
+/* 分类头部结束 */
+/* 分类底部开始 */
+footer{
+	width: 100%;
+	height: 25rem;
+	display: flex;
+	margin-top: 1.31rem;
+}
+aside{
+	width: 2.56rem;
+	height: auto;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 1.31rem;
+}
+.aside_list{
+	display: block;
+	width: 100%;
+	height: 1.41rem;
+	border-bottom: 0.01rem solid #e7e7e7;
+	box-sizing: border-box;
+	background: #f7f7f7;
+}
+.aside_list h2{
+	font-size: 0.31rem;
+	color: #5a5d63;
+	text-align: center;
+	line-height: 1.41rem;
+	font-weight: normal;
+}
+aside .aside_list:nth-child(7){
+	background: white;
+	border-bottom: 0.01rem solid #de3c94;
+}
+.footer_right{
+	width: 8.24rem;
+	height: 25rem;
+	margin-left: 2.56rem;
+}
+.right_top{
+	width: 100%;
+	height: 3.73rem;
+	overflow: hidden;
+}
+.right_top a{
+	display: block;
+	width: 7.35rem;
+	height: 2.94rem;
+	margin: 0.38rem auto;
+}
+.right_top a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right_bottom{
+	width: 100%;
+	height:auto;
+}
+.bottom_top{
+	width: 100%;
+	height: 1.05rem;
+	overflow: hidden;
+}
+.bottom_top h2{
+	font-size: 0.29rem;
+	color: #212421;
+	margin-left: 0.81rem;
+	margin-top: 0.28rem;
+}
+.bottom_bottom{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.bottom_bottom li{
+	width: calc(100% / 3);
+	height: auto;
+}
+.bottom_bottom li a{
+    display: block;
+    width: 2.23rem;
+    height: 2.23rem;
+    margin: 0 auto;
+}
+.bottom_bottom li a img{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.wenzi{
+	width: 100%;
+	height: 0.74rem;
+}
+.wenzi h2{
+	font-size: 0.33rem;
+	color: #212021;
+	font-weight: normal;
+	text-align: center;
+
+}
+/* 分类底部结束 */
